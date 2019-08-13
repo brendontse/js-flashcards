@@ -1,0 +1,20 @@
+#index {
+  background-color: gray;
+}
+
+.default-welcome {
+  background-color: white;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.row button {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}

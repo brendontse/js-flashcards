@@ -11,25 +11,51 @@
   <body>
     <div class="container">
       <div class="row" id="content">
-        <div class="col-md-4">
-            <h4>column header</h4>
-            <p>column 1</p>
+        <div class="col-md-2" id="index">
+            <h4>Terms</h4>
+            <div class="row">
+              <button type="button" id="js-b">Javascript</button>
+            </div>
+            <div class="row">
+              <button type="button" id="functions-b">functions</button>
+            </div>
+            <div class="row">
+              <button type="button" id="strings-b">strings</button>
+            </div>
+            <div class="row">
+              <button type="button" id="variables-b">variables</button>
+            </div>
+            <div class="row">
+              <button type="button" id="arguments-b">arguments</button>
+            </div>
+
         </div>
         <div class="col-md-8" id="description">
-            <div class="default-welcome">
-              <p>welcome screen</p>
+            <div id="default-welcome" class="visible definition">
+              <p>Are you ready to have some <strong>fun</strong> with coding?</p>
             </div>
-            <div class="JS">
-              <p>javascript def</p>
+            <div id="javascript" class="hidden definition">
+              <h6>Javascript</h6>
+              <p>JavaScript, often abbreviated as JS, is a high-level, interpreted scripting language that conforms to the ECMAScript specification</p>
+            </div>
+            <div id="functions" class="hidden definition">
+              <h6>Functions</h6>
+              <p>A JavaScript function is a block of code designed to perform a particular task.<br> A JavaScript function is executed when "something" invokes it (calls it).</p>
+            </div>
+            <div id="strings" class="hidden definition">
+              <h6>Strings</h6>
+              <p>A JavaScript string is zero or more characters written inside quotes.</p>
+            </div>
+            <div id="variables" class="hidden definition">
+              <h6>Variables</h6>
+              <p>JavaScript variables are containers for storing data values.</p>
+            </div>
+            <div id="arguments" class="hidden definition">
+              <h6>Arguments</h6>
+              <p>Function arguments are the real values passed to (and received by) the function.</p>
             </div>
         </div>
-
-
       </div>
-
-
-
-
     </div>
   </body>
 </html>
